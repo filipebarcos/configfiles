@@ -21,5 +21,5 @@
 [format]
    pretty = format:'%Cred%h%Creset -%Cblue%an%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset'
 [user]
-	name = James Brechtel
-	email = jbrechtel@gmail.com
+	name = Filipe Costa
+	email = filipebarcos@gmail.com
