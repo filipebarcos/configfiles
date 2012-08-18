@@ -15,3 +15,7 @@ alias workspace="cd ~/workspace"
 alias st="git status"
 alias glog="git log"
 alias glog="git log"
+
+# Ruby
+alias bil="bundle install"
+alias resc="rake spec"
