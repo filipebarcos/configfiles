@@ -23,3 +23,5 @@
 [user]
 	name = Filipe Costa
 	email = filipebarcos@gmail.com
+[credential]
+	helper = osxkeychain
