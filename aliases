@@ -12,6 +12,7 @@ alias workspace="cd ~/workspace"
 
 
 # GIT
+alias ci="git commit"
 alias st="git status"
 alias glog="git log"
 alias glog="git log"
