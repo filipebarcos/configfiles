@@ -18,7 +18,6 @@
 	added = yellow
 	changed = green
 	untracked = cyan
-  removed = red
 
 [format]
 	pretty = format:'%Cred%h%Creset -%Cblue%an%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset'
