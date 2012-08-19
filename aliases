@@ -1,7 +1,6 @@
 alias cls="clear"
 alias ls="ls -Ga"
 alias ll="ls -latrG"
-alias hdmi="echo DDIS > $HOME/switch && sudo /etc/rc.d/kdm restart"
 
 #tmux
 alias ta="tmux attach"
@@ -14,7 +13,6 @@ alias workspace="cd ~/workspace"
 # GIT
 alias ci="git commit"
 alias st="git status"
-alias glog="git log"
 alias glog="git log"
 
 # Ruby
