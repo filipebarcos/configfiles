@@ -1,1 +1,4 @@
+DOTFILES
+========
+
 To use this configuration you just need to clone and run rakefile for task "activate".
