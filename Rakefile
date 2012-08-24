@@ -2,19 +2,19 @@ task :default => :compile_command_t
 
 desc 'compile Comamnd-T'
 task :compile_command_t do
-  Dir.chdir(File.dirname(__FILE__) + "/vim/bundle/Command-T") do
+  Dir.chdir(File.dirname(__FILE__) + "/dotfiles/vim/bundle/Command-T") do
     sh "rake make"
   end
 end
 
 desc 'symlink files into home directory'
 task :activate do
-  working_dir = File.expand_path(File.dirname(__FILE__))
+  working_dir = File.expand_path("#{File.dirname(__FILE__)}/dotfiles")
   home_dir = File.expand_path("~")
   dot_files = Dir.glob(File.join(working_dir,"*"))
 
   dot_files.each do |filename|
-    next if filename =~ /Rakefile/ || filename =~ /^.gitignore$/
+    next if filename =~ /Rakefile/ || /README.md/ || filename =~ /^.gitignore$/
 
     sym_link = File.join(home_dir,".#{File.basename(filename).gsub(/global_/, '')}")
 
