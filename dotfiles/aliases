@@ -1,0 +1,20 @@
+alias cls="clear"
+alias ls="ls -Ga"
+alias ll="ls -latrG"
+
+#tmux
+alias ta="tmux attach"
+
+#folders
+alias configfiles="cd ~/workspace/configfiles"
+alias workspace="cd ~/workspace"
+
+
+# GIT
+alias ci="git commit"
+alias st="git status"
+alias glog="git log"
+
+# Ruby
+alias bil="bundle install"
+alias resc="rake spec"
