@@ -18,3 +18,6 @@ alias glog="git log"
 # Ruby
 alias bil="bundle install"
 alias resc="rake spec"
+
+#sublime text 2
+alias s="subl -w"
