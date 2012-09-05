@@ -21,3 +21,6 @@ alias resc="rake spec"
 
 #sublime text 2
 alias s="subl -w"
+
+#textmate
+alias m="mate ."
