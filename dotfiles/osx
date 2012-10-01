@@ -57,14 +57,14 @@ echo "0x08000100:0" > ~/.CFUserTextEncoding
 # in the login window
 sudo defaults write /Library/Preferences/com.apple.loginwindow AdminHostInfo HostName
 
-# Restart automatically if the computer freezes
-systemsetup -setrestartfreeze on
+# Dont restart automatically if the computer freezes
+systemsetup -setrestartfreeze off
 
 ###############################################################################
 # Trackpad, mouse, keyboard, Bluetooth accessories, and input                 #
 ###############################################################################
 
-# Trackpad: swipe between pages with three fingers
+# Trackpad: swipe between pages with four fingers
 defaults write NSGlobalDomain AppleEnableSwipeNavigateWithScrolls -bool true
 defaults -currentHost write NSGlobalDomain com.apple.trackpad.fourFingerHorizSwipeGesture -int 1
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadFourFingerHorizSwipeGesture -int 1
