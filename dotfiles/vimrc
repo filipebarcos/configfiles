@@ -103,9 +103,7 @@ if version >= 700
     autocmd FileType tex setlocal spell spelllang=en_us
 endif
 
-if &t_Co == 256
-  colorscheme vibrantink
-endif
+colorscheme slate
 
 au FileType diff colorscheme desert
 au FileType git colorscheme desert
