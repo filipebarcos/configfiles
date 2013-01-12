@@ -10,7 +10,7 @@ alias ta="tmux attach"
 #folders
 alias configfiles="cd ~/workspace/configfiles"
 alias workspace="cd ~/workspace"
-
+alias site="cd ~/workspace/filipebarcos.github.com"
 
 # GIT
 alias ci="git commit"
