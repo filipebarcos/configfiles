@@ -26,3 +26,6 @@ complete -W "NSGlobalDomain" defaults
 
 # sources
 source ~/.aliases
+
+#Git ignore files
+function gi() { curl http://gitignore.io/api/$@ ;}
