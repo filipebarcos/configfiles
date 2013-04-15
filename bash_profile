@@ -11,7 +11,7 @@ export RVM_HOME=$HOME/.rvm
 export JSC_HOME=/System/Library/Frameworks/JavaScriptCore.framework/Versions/A/Resources/jsc
 export PATH=/usr/local/bin:/usr/local/sbin:~/bin:$RUBY_HOME/bin:$RVM_HOME/bin:$SCALA_HOME/bin:$JSC_HOME:$PATH
 
-export PS1='\n \[\033[1;33m\]\w\[\033[0m\] \[\033[1;32m\]$(__git_ps1)\[\033[0m\] \n\u$ '
+export PS1='\[\033[1;37m\]\u\[\033[0m\]:\[\033[1;33m\]\w\[\033[0m\]\[\033[1;32m\]$(__git_ps1)\[\033[0m\]\[\033[1;37m\]$\[\033[0m\] '
 
 # Git completion
 if [ -f `brew --prefix`/etc/bash_completion ]; then
