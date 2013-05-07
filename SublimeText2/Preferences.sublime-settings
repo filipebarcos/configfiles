@@ -1,2 +1,35 @@
 {
+  "auto_complete_commit_on_tab": true,
+  "bold_folder_labels": true,
+  "font_size": 16.0,
+  "font_face": "Menlo",
+  "font_options":
+  [
+    "subpixel_antialias"
+  ],
+  "highlight_line": true,
+  "highlight_modified_tabs": true,
+  "shift_tab_unindent": true,
+  "tab_size": 2,
+  "translate_tabs_to_spaces": true,
+  "trim_trailing_white_space_on_save": true,
+  "ensure_newline_at_eof_on_save": true,
+  "create_window_at_startup": false,
+  "new_window_settings": { "show_minimap": false },
+  "save_on_focus_lost": false,
+  "show_full_path": true,
+  "fade_fold_buttons": false,
+  "drag_text": false,
+  "file_exclude_patterns":
+  [
+    ".DS_Store"
+  ],
+  "folder_exclude_patterns":
+  [
+    "bin",
+    ".bundle",
+    ".git",
+    ".sass-cache",
+    "tmp"
+  ]
 }
