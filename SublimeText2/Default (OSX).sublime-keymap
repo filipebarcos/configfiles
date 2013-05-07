@@ -1,0 +1,14 @@
+[
+  {"keys": ["super+shift+w"], "command": "close_other_tabs"},
+  {"keys": ["super+shift+r"], "command": "side_bar_rename"},
+  {"keys": ["super+shift+m"], "command": "side_bar_move"},
+  {"keys": ["ctrl+d"], "command": "right_delete"},
+  {"keys": ["'"], "command": "insert_snippet", "args": {"contents": "\"${0:$SELECTION}\""}, "context":
+      [
+        {"key": "setting.auto_match_enabled", "operator": "equal", "operand": true},
+        {"key": "selection_empty", "operator": "equal", "operand": false, "match_all": true}
+      ]
+    },
+  { "keys": ["super+shift+b"], "command": "anypreter" },
+  { "keys": ["super+alt+n"], "command": "advanced_new_file"}
+]
