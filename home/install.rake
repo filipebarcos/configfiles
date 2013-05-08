@@ -9,6 +9,6 @@ task :activate_home do
     sym_link = File.join(home,".#{File.basename(filename)}")
 
     rm_rf(sym_link) if File.symlink?(sym_link) || File.exist?(sym_link)
-    ln_s filename, sym_link
+    ln_sf filename, sym_link
   end
 end
