@@ -1,3 +1,15 @@
 [submodule "SublimeText2/Theme - Soda"]
 	path = SublimeText2/Theme - Soda
 	url = https://github.com/buymeasoda/soda-theme/
+[submodule "SublimeText2/AdvancedNewFile"]
+	path = SublimeText2/AdvancedNewFile
+	url = https://github.com/skuroda/Sublime-AdvancedNewFile
+[submodule "SublimeText2/BracketHighlihter"]
+	path = SublimeText2/BracketHighlihter
+	url = https://github.com/facelessuser/BracketHighlighter.git
+[submodule "SublimeText2/Sass"]
+	path = SublimeText2/Sass
+	url = https://github.com/nathos/sass-textmate-bundle.git
+[submodule "SublimeText2/Color Highlighter"]
+	path = SublimeText2/Color Highlighter
+	url = https://github.com/Monnoroch/ColorHighlighter.git
