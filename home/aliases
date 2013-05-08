@@ -17,6 +17,9 @@ alias ci="git commit"
 alias st="git status"
 alias glog="git log"
 
+#TIG
+alias ts="tig status"
+
 # Ruby
 alias bil="bundle install"
 alias resc="rake spec"
