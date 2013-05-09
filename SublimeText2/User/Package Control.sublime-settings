@@ -1,9 +1,10 @@
 {
-  "installed_packages":
-  [
-    "AdvancedNewFile",
-    "BracketHighlighter",
-    "Color Highlighter",
-    "Sass"
-  ]
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"BracketHighlighter",
+		"Color Highlighter",
+		"ruby-slim.tmbundle",
+		"Sass"
+	]
 }
