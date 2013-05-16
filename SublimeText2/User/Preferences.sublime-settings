@@ -17,7 +17,8 @@
 		".bundle",
 		".git",
 		".sass-cache",
-		"tmp"
+		"tmp",
+		".vagrant"
 	],
 	"font_face": "Menlo",
 	"font_options":

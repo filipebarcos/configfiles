@@ -4,7 +4,9 @@
 		"AdvancedNewFile",
 		"BracketHighlighter",
 		"Color Highlighter",
+		"Package Control",
 		"ruby-slim.tmbundle",
-		"Sass"
+		"Sass",
+		"Vagrant"
 	]
 }
