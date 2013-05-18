@@ -1,6 +1,6 @@
 colorscheme wombat
 if has("mac")
-  set guifont=Monaco:h12.00
+  set guifont=Menlo:h14.00
   set fuopt=maxhorz,maxvert
 else
   set gfn=Monospace\ 13
