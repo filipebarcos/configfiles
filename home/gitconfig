@@ -25,3 +25,5 @@
 	email = filipebarcos@gmail.com
 [credential]
 	helper = osxkeychain
+[push]
+	default = simple
