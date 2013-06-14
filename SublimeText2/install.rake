@@ -10,7 +10,7 @@ task :activate_sublime do
     sym_link = File.join(sublime_packages_folder, filename_to_be_used)
     dir = sym_link.split("/")[0..-2].join("/")
 
-    mkdir(dir) unless File.exist?(dir)
+    makedirs(dir) unless File.exist?(dir)
 
     rm_rf(sym_link) if File.symlink?(sym_link) || File.exist?(sym_link)
     ln_sf filename, sym_link
