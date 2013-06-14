@@ -6,6 +6,23 @@
     <string>Espresso Soda</string>
     <key>settings</key>
     <array>
+<dict>
+<key>name</key>
+<string>mon_color</string>
+<key>scope</key>
+<string>mcol_661166FF</string>
+<key>settings</key>
+<dict>
+<key>background</key>
+<string>#661166FF</string>
+<key>caret</key>
+<string>#FFFFFFFF</string>
+<key>foreground</key>
+<string>#FFFFFFFF</string>
+</dict>
+</dict>
+
+
         <dict>
             <key>settings</key>
             <dict>
