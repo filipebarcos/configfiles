@@ -1,4 +1,4 @@
-task :activate_sublime do
+task :sublime do
   current_folder = File.expand_path(File.dirname(__FILE__))
   sublime_packages_folder = File.expand_path('~/Library/Application Support/Sublime Text 2/Packages')
   user_settings = Dir.glob(File.join(current_folder,"**/*"))

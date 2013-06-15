@@ -16,8 +16,3 @@ task :runnables do
     system "#{filename}"
   end
 end
-
-task :activate_home do
-  Rake::Task[:linkables].invoke
-  Rake::Task[:runnables].invoke
-end
