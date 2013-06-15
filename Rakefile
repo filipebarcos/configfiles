@@ -4,12 +4,12 @@ task :default => :activate
 
 desc 'symlink files into home directory'
 task :link do
-  Rake::Task[:linkable].invoke
+  Rake::Task[:linkables].invoke
   Rake::Task[:sublime].invoke
 end
 
 task :install do
-  Rake::Task[:runnable].invoke
+  Rake::Task[:runnables].invoke
 end
 
 task :activate do
