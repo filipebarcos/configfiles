@@ -1,5 +1,5 @@
 {
-	"auto_complete_commit_on_tab": true,
+	"auto_complete_commit_on_tab": false,
 	"bold_folder_labels": true,
 	"color_scheme": "Packages/Color Scheme - User/Espresso Soda.tmTheme",
 	"create_window_at_startup": false,
