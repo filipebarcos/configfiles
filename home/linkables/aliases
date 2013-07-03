@@ -16,6 +16,7 @@ alias site="cd ~/workspace/filipebarcos.github.com"
 alias ci="git commit"
 alias st="git status"
 alias glog="git log"
+alias gpush="git push"
 
 #TIG
 alias ts="tig status"
