@@ -2,8 +2,8 @@
 	"installed_packages":
 	[
 		"AdvancedNewFile",
+		"Alignment",
 		"BracketHighlighter",
-		"Color Highlighter",
 		"Cucumber",
 		"Package Control",
 		"RSpec",

@@ -17,6 +17,7 @@ alias ci="git commit"
 alias st="git status"
 alias glog="git log"
 alias gpush="git push"
+alias gdiff="git diff"
 
 #TIG
 alias ts="tig status"
