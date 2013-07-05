@@ -1,0 +1,5 @@
+{
+  "check_for_rvm": true,
+  "save_on_run": true,
+  "run_rspec_command": "bundle exec rspec {relative_path}"
+}
