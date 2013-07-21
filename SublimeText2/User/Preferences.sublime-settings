@@ -31,9 +31,9 @@
 	"ignored_packages":
 	[
 		"Vintage",
-		"Color Highlighter",
+		"BracketHighlighter",
 		"Vagrant",
-		"BracketHighlighter"
+		"Color Highlighter"
 	],
 	"new_window_settings":
 	{

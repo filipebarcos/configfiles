@@ -6,8 +6,10 @@ export LSCOLORS=GxFxCxDxBxegedabagaced
 export EDITOR='vim'
 
 export RVM_HOME=$HOME/.rvm
+export GOHOME=/usr/local/go
+export GOPATH=$HOME/workspace/go
 export JSC_HOME=/System/Library/Frameworks/JavaScriptCore.framework/Versions/A/Resources/jsc
-export PATH=/usr/local/bin:/usr/local/sbin:~/bin:$RVM_HOME/bin:$JSC_HOME:$PATH
+export PATH=/usr/local/bin:/usr/local/sbin:~/bin:$RVM_HOME/bin:$JSC_HOME:$GOHOME/bin:$GOPATH/bin:$PATH
 
 export PS1='\[\033[1;37m\]\u\[\033[0m\]:\[\033[1;33m\]\w\[\033[0m\]\[\033[1;32m\]$(__git_ps1)\[\033[0m\]\[\033[1;37m\]$\[\033[0m\] '
 
